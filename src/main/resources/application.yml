@@ -9,3 +9,7 @@ spring:
 
 #    test-on-borrow: true
 #    validationQuery: SELECT 1 FROM DUAL
+
+logging:
+    level:
+        org.springframework.*: 'DEBUG'

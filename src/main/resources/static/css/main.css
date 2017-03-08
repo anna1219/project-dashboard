@@ -1,0 +1,28 @@
+body {
+    font-size: 60px;
+    font-family: Sans-serif;
+    color: rgb(22,102,175);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    line-height: 2;
+}
+
+.item {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+}
+
+.title {
+    color: rgb(51, 51, 51);
+}
+
+.value {
+    padding-left: 20px;
+    font-size: 80px;
+}
