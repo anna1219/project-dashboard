@@ -3,12 +3,14 @@
 <head>
     <meta http-equiv="Content-Type" name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <meta http-equiv="refresh" content="60" />
+    <meta http-equiv="refresh" content="30" />
     <link th:href="@{/css/main.css}" rel="stylesheet"/>
 </head>
 <body>
 
 <main>
+    <div class="heading">Carcierge in Production</div>
+
     <div class="item">
         <div class="title"> Number of users: </div>
         <div class="value" th:text="${number_of_users}"></div>
@@ -20,7 +22,7 @@
     </div>
 
     <div class="item">
-        <div class="title"> Number of emails sent: </div>
+        <div class="title"> Number of DTC emails sent: </div>
         <div class="value" th:text="${number_of_emails}"></div>
     </div>
 </main>
